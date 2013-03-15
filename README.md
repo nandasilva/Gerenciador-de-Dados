@@ -14,6 +14,6 @@ Sistema para gerenciar dados para serem compartilhados com o setor de T.I das em
 ## Linguagens
 
 * Front-end
-* * HTML5
-* * CSS3
-* * Zepto JS
+** HTML5
+** CSS3
+** Zepto JS
