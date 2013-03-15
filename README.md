@@ -3,17 +3,24 @@ Gerenciador de Dados
 
 Sistema para gerenciar dados para serem compartilhados com o setor de T.I das empresas, dados como FTP, senhas de painéis, emails, etc.
 
-## Tecnologias
+### Front-end
+
+* HTML5
+* CSS3
+* Javascript
+
+### Back-end
+
+* PHP 5.3 +
+* MySQL 5.5 +
+
+### Tecnologias
 
 * Twitter Bootstrap
-* LESS
-* IDIORM
 * Mustache
+* LESS
+* ZeptoJS
 * Slim Framework
+* IDIORM
 
-## Linguagens
 
-* Front-end
-** HTML5
-** CSS3
-** Zepto JS
