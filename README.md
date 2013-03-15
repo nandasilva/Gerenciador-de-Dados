@@ -22,5 +22,28 @@ Sistema para gerenciar dados para serem compartilhados com o setor de T.I das em
 * ZeptoJS
 * Slim Framework
 * IDIORM
+* Composer
 
+### Arquiteturas
 
+* REST + MVC
+
+### Estrutura
+
+<pre>
+.
+├── README.md
+├── application
+│   ├── controllers
+│   ├── models
+│   ├── routes
+│   └── views
+│       └── partials
+├── docs
+├── public
+│   ├── css
+│   ├── images
+│   └── js
+│       └── vendor
+└── vendor
+</pre>
