@@ -1,0 +1,11 @@
+{
+	"require": {
+		"slim/slim": "2.2.0",
+		"slim/extras": "2.0.3",
+		"twig/twig": "v1.12.2",
+		"j4mie/idiorm": "1.*"
+	},
+	"autoload": {
+		"classmap": ["application/"]
+	}
+}
