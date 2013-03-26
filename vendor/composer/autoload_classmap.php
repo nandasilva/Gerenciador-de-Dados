@@ -6,8 +6,22 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
+    'ContatoController' => $baseDir . '/application/controllers/ContatoController.php',
+    'ContatoModel' => $baseDir . '/application/models/ContatoModel.php',
+    'EmailController' => $baseDir . '/application/controllers/EmailController.php',
+    'EmailModel' => $baseDir . '/application/models/EmailModel.php',
+    'EmpresaController' => $baseDir . '/application/controllers/EmpresaController.php',
+    'EmpresaModel' => $baseDir . '/application/models/EmpresaModel.php',
+    'FtpModel' => $baseDir . '/application/models/FtpModel.php',
+    'Ftpcontroller' => $baseDir . '/application/controllers/FtpController.php',
     'IdiormResultSet' => $baseDir . '/vendor/j4mie/idiorm/idiorm.php',
     'IdiormString' => $baseDir . '/vendor/j4mie/idiorm/idiorm.php',
     'IdiormStringException' => $baseDir . '/vendor/j4mie/idiorm/idiorm.php',
     'ORM' => $baseDir . '/vendor/j4mie/idiorm/idiorm.php',
+    'PainelController' => $baseDir . '/application/controllers/PainelController.php',
+    'PainelModel' => $baseDir . '/application/models/PainelModel.php',
+    'PessoaController' => $baseDir . '/application/controllers/PessoaController.php',
+    'PessoaModel' => $baseDir . '/application/models/PessoaModel.php',
+    'VendorController' => $baseDir . '/application/controllers/VendorController.php',
+    'VendorModel' => $baseDir . '/application/models/VendorModel.php',
 );

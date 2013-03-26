@@ -7,7 +7,7 @@ define('DB_DRIVER', 'mysql');
 define('DB_HOST', 'localhost');
 define('DB_USER', 'root');
 define('DB_PASS', 'root');
-define('DB_DATABASE', 'geradorgba');
+define('DB_DATABASE', 'gerenciador');
 
 /**
  * Requires e includes de bibliotecas, etc
@@ -44,7 +44,7 @@ try {
 	 * Indica qual é a PK de cada tabela !important
 	 */
 	ORM::configure('id_column_overrides', array(
-		'Tabela' => 'Chave Primária'
+		'empresas' => 'IDEmpresa'
 	));
 }
 catch ( PDOException $e ) {
@@ -82,7 +82,7 @@ $view->appendData(array(
 		),
 		'footer' => array(
 			'js' => array(
-				'vendor/jquery-1.9.1.min.js',
+				'vendor/zepto.min.js',
 				'bootstrap.min.js',
 				'main.js'
 			)
@@ -100,9 +100,9 @@ $app = new \Slim\Slim(array(
 /**
  * Erro 404 - Define um template padrão
  */
-$app->notFound(function () use ($app) {
-	$app->render('/errors/404.php');
-});
+// $app->notFound(function () use ($app) {
+// 	$app->render('/errors/404.php');
+// });
 
 /**
  * Routes
