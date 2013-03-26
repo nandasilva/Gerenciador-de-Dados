@@ -20,15 +20,13 @@
 
 	<body class="wrap">
 		<!-- Menu de navegação no topo da página -->
-		<div class="navbar navbar-inverse">
-			<div class="navbar-inner">
-				<div class="container">
+<div class="navbar">
+  <div class="navbar-inner">
+    <a class="brand" href="#">Title</a>
+    <ul class="nav">
+      <li class="active"><a href="#">Empresas</a></li>
+      <li><a href="#">Vendors</a></li>
+    </ul>
+  </div>
+</div>
 
-				 <ul>
-				 	<li class="brand">Empresas</li>
-				 	<li class="brand">Vendors</li>
-				 </ul>	
-
-				</div>
-			</div>
-		</div>
