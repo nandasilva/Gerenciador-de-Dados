@@ -3,6 +3,6 @@
 class EmpresaController {
 
 	public function verEmpresas() {
-		echo "string";
+		return EmpresaModel::verEmpresas();
 	}
 }

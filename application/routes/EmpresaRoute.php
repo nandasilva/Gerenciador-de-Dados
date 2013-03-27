@@ -1,5 +1,5 @@
-<?php 
-	
+<?php
+
 // Lsta todas as empresas
 $app->get('/empresa', function() use($app) {
 	$empresas = new EmpresaController();
@@ -11,7 +11,7 @@ $app->get('/empresa', function() use($app) {
 		'content' => array(
 			'title' => 'Todas as empresas'
 		),
-		'empresas' => $empresas
+		'empresas' => $empresas->verEmpresas()
 	));
 });
 
