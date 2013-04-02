@@ -25,11 +25,17 @@
 	    <div class="container wrap">
 	 
 	      <a class="brand" href="#">Gerenciador de Dados</a>
+	      <!-- Navegação do site -->
 		    <ul class="nav">
-		    	<li class="active divider-vertical"><a href="#">Empresas</a></li>
-		      	<li class="divider-vertical"><a href="#">Vendors</a></li>
+		    	<li class="active divider-vertical">
+		    		<a href="#">Empresas</a>
+		    	</li>
+		      	<li class="divider-vertical">
+		      		<a href="#">Vendors</a>
+		      	</li>
 		    </ul>
 
+		    <!-- Campo de busca no site -->
 		    <form class="navbar-search pull-left">
 			  	<input type="text" class="search-query" placeholder="Pequisar">
 			</form>

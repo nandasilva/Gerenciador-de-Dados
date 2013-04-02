@@ -2,7 +2,7 @@
 {% include '/partials/Header.php' %}
 
 <div class="wrap">
-    <h3>Empresas</h3>
+    <h3>{{template.titulo}}</h3>
 
     <table cellpadding="0" cellspacing="0" border="0" class="table_lista">
 
@@ -11,22 +11,21 @@
             <tr>
                 <th>Nome da Empresa</th>
                 <th>URL da empresa</th>
-                <th>Servidor de Entrada</th>
-                <th>Porta do Servidor de Entrada</th>
-                <th>Servidor de Saída</th>
-                <th>Porta do Servidor de Saída</th>
+                <th>Ações</th>
             </tr>
         </thead>
 
         <tbody >
             {% for e in empresas %}
                 <tr>
-                    <td class="td_maior"><a href="#">{{e.NomeEmpresa}}</a></td>
-                    <td class="td_maior"><a href="#">{{e.URLEmpresa}}</a></td>
-                    <td class="td_menor">{{e.ServidorEntradaEmpresa}}</td>
-                    <td class="td_menor">{{e.PortaServidorEntradaEmpresa}}</td>
-                    <td class="td_menor">{{e.ServidorSaidaEmpresa}}</td>
-                    <td class="td_menor">{{e.PortaServidorSaidaEmpresa}}</td>
+                    <td class="td_nome"><a href="/empresa/{{e.IDEmpresa}}">{{e.NomeEmpresa}}</a></td>
+                    <td class="td_url"><a href="http://{{e.URLEmpresa}}" target="_blank">{{e.URLEmpresa}}</a></td>
+                    <td>
+                        <ul class="td_btn">
+                            <li class="btn_acoes btn_editar"><a href="#"></a></li>
+                            <li class="btn_acoes btn_excluir"><a href="#"></a></li>
+                        </ul>
+                    </td>
                 </tr>
             {% endfor %}
 
